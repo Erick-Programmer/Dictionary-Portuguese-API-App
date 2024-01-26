@@ -1,1 +1,1 @@
-Development of a Dictionary Portugueses with API (Html, Css, Javascript).
+Development of a Dictionary Portuguese with API (Html, Css, Javascript).
