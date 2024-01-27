@@ -101,15 +101,19 @@ label {
     border-radius: 20px;
     position: relative;
     bottom: -40px;
+    display: grid;
+}
+
+#outWord {
+    text-align: center;
 }
 
 #label-result {
     position: relative;
-    bottom: -35px;
+    bottom: -45px;
     left: 10px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 15px; 
-
 }
 
 

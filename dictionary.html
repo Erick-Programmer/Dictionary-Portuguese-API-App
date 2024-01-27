@@ -7,7 +7,7 @@
     <meta name="generator" content="Carlos Erick Rosário - https://github.com/Erick-Programmer">
     <meta name="author" content="Carlos Erick Rosário">
     <link rel="stylesheet" href="dictionary.css">
-    <title>dictionary Api </title>
+    <title>Dictionary Api </title>
 </head>
 <body> 
     <head>
@@ -17,15 +17,16 @@
     <main>
         <form>
             <label for="inWord" id="label-1">Portuguese Dictionary</label>
-            <input type="text" id="inWord" autofocus>
+            <input type="text" id="inWord" name="inWord" autofocus>
 
             <input type="button" id="btnResult" value="Search">
+        
+            <p id="label-result">Result</p>
 
-            <label for="meaning" id="label-result">Result</label>
             <div id="div-meaning">
-                <p id="outWord"></p>
+                <pre id="outWord"></pre>
             </div>
-        </form>
+        </form>        
     <img src="https://miro.medium.com/v2/resize:fit:1358/1*9m-WDdL_ji01bGbjEnutEw.gif" alt="man_pc">
     </main>
     <footer>
@@ -35,5 +36,7 @@
     </footer>
 
     <script src="dictionary.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+
 </body>
 </html>
