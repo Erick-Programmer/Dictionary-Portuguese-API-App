@@ -37,10 +37,23 @@ function searchWord() {
         $(html).find('def').each(function(){
             res.push($(this).text());
         });       
+        var filter = res.join(' ');
+        var word = "";
 
+        for(var i = 0; i < filter.length;i++){
+            if (filter[i] == '_'){
+                continue;
+            } else if (filter[i] == '.'){
+                filter[i] == '.';
+                word += filter[i];
+                break;
+            }
+            word += filter[i];
+        }
+        
         var outWord = document.getElementById('outWord');
-        outWord.textContent = res; 
-        console.log(res);
+        outWord.textContent = word; 
+        console.log(word);
     }
 
     
@@ -82,3 +95,27 @@ console.log(result);
 /* end of fetch(), uncomment next line for real application: */
 // });
 
+let array = ['oi sou o, goku'];
+const filtered = array.some(x => x.includes(','));
+if(filtered == true){
+    var filter = array.map(y => y.replace(',', ",\n"));
+    console.log(filter);
+}
+
+let array2 = ['Edifício para habitação: _uma casa moderna_.']
+var filter = array2.join(' ');
+var word = "";
+for (var i = 0; i < filter.length; i++){
+    if(filter[i] == '_'){
+        continue;
+    }else if (filter[i] == ':'){
+        filter[i] = ','
+    }else {
+        word += filter[i];
+        if(i == 41){
+            break;
+        }
+    }
+    
+}
+console.log(word);
