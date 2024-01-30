@@ -27,9 +27,8 @@
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
 <!-- If you have screenshots you'd like to share, include them here. -->
-
+<img src="/img/screenshot.png">
 
 ## Project Status
 Project is: _in progress_ . 
