@@ -20,16 +20,43 @@
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Technologies Used
-- HTML  - version 5
-- CSS  - version 3
+
+- API Dictionary - Dicionário Aberto API.
+    - https://api.dicionario-aberto.net/index.html
+
+
+- HTML  - version 5 
+
+    - in html was used to organization semantic (header, main and footer tags);
+    - forms tag to words insertion in portuguese;
+    - Input (button) tag for word meanings generations.
+    - div element for each one elements within of the tags that need of stylization;
+
+- CSS  - version 3 
+
+    - in CSS techlopgy was used .class and #ids to organization and elements design. 
+    - in Body was used padding, margin and concepts de box sizing;
+    - for header and footer, its was used div element as base received colorization.
+    - in main tag was implement concepts of display flex, justify content and align itens for Formulary centralization. 
+    - at the formulary received concepts of design simple, as well display grid, padding for elements (labels) and spaces as inputs, area (div element) to received words meaning. 
+
 - Javascript  - version ES6+
+
+    - in javascript was used concepts of functions, alerts (isNaN and operator for when to write words in portuguese, in whitespace don't used numbers or leave empty spaces);
+    - asynchronous function and awaits for the data return API and will work with this data through loops and arrays methods to process this data.
+    - and will return the results (handle DOM elements) searched in the dictionary.
+
 - jQuery  - version 3.7.0
+
+    - jQuery was used to treat the received file into JSON, which contained the array element in xml. 
+    - using parseHTML(), find(), text() and .this object, this datas was to move for um new array.
+    - in new array to string and function join() so that it can be used in the dictionary.
+ 
 
 
 ## Screenshots
 <!-- If you have screenshots you'd like to share, include them here. -->
-<img src="/img/screenshot.png">
-
+![Example screenshot](./img/screenshot.png)
 ## Project Status
 Project is: _in progress_ . 
 
@@ -37,15 +64,15 @@ Project is: _in progress_ .
 ## Room for Improvement
 
 Room for improvement:
-- Design more attractive.
-- Space for others meanings that API provide.
+- Responsible design for web browsers of mobile devices.
+- Use others meanings that API provide.
 
 To do:
 - Responsible design for mobile application.
-- Button the accessibility for dark theme.
+- Space for others meanings that API provide.
 
 ## Contact
-Created by [@Erick-Programmer](https://erick-programmer.github.io/Portfolio-Personal/portfolio.html) - feel free to contact me!
+Created by [@Erick-Programmer](https://github.com/Erick-Programmer) - feel free to contact me!
 
 
 <!-- Optional -->
