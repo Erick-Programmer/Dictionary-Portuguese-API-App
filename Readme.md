@@ -56,7 +56,8 @@
 
 ## Screenshots
 <!-- If you have screenshots you'd like to share, include them here. -->
-![Example screenshot](./img/screenshot.png)
+![alt text](https://github.com/Erick-Programmer/Dictionary-Portuguese-API-App/blob/main/img/screenshot.PNG)
+
 ## Project Status
 Project is: _in progress_ . 
 
